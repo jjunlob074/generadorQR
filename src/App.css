@@ -31,12 +31,6 @@ h1 {
   max-width: 500px;
   margin: 0 20px;
 }
-#container-qr {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 input {
   width: 100%;
@@ -74,8 +68,7 @@ button:active {
 
 /* Estilos para el QR Code */
 .qr-code {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 /* Responsive design */
@@ -87,13 +80,5 @@ button:active {
   .container {
     width: 100%;
     padding: 20px;
-  }
-
-  input {
-    font-size: 1rem;
-  }
-
-  button {
-    font-size: 1rem;
   }
 }

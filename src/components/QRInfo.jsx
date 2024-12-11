@@ -2,7 +2,7 @@ const QRInfo = () => {
   return (
     <div
       style={{
-        marginTop: '30px',
+        margin: '30px',
         padding: '20px',
         backgroundColor: '#5e124b',
         borderRadius: '8px',
